@@ -1,0 +1,3 @@
+[{ "photoImage":"img/image1.jpg", "ratingImage":"img/sword5.png", "name":"Alakar", "neighborhood":"Leidseplein", "confirmedKills":15 },
+{ "photoImage":"img/image2.jpg", "ratingImage":"img/sword5.png", "name":"Brynium", "neighborhood":"Leidseplein", "confirmedKills":7 },
+{ "photoImage":"img/image3.jpg", "ratingImage":"img/sword3.png", "name":"Catalonious", "neighborhood":"Oost", "confirmedKills":3 }]
