@@ -1,0 +1,3 @@
+[{ "photoImage":"img/cat1.png", "ratingImage":"img/paws5.png", "name":"Sushi", "neighborhood":"Leidseplein", "confirmedKills":15 },
+{ "photoImage":"img/cat2.png", "ratingImage":"img/paws5.png", "name":"Sashimi", "neighborhood":"Leidseplein", "confirmedKills":7 },
+{ "photoImage":"img/cat3.png", "ratingImage":"img/paws3.png", "name":"Meowser", "neighborhood":"Oost", "confirmedKills":3 }]

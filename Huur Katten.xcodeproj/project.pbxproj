@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		90861B6520A5FCC100A4C4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90861B6420A5FCC100A4C4B4 /* AppDelegate.swift */; };
-		90861B6720A5FCC100A4C4B4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90861B6620A5FCC100A4C4B4 /* FirstViewController.swift */; };
 		90861B6920A5FCC100A4C4B4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90861B6820A5FCC100A4C4B4 /* SecondViewController.swift */; };
 		90861B6C20A5FCC100A4C4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90861B6A20A5FCC100A4C4B4 /* Main.storyboard */; };
 		90861B6E20A5FCC200A4C4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90861B6D20A5FCC200A4C4B4 /* Assets.xcassets */; };
 		90861B7120A5FCC200A4C4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90861B6F20A5FCC200A4C4B4 /* LaunchScreen.storyboard */; };
 		90861B7C20A5FCC200A4C4B4 /* Huur_KattenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90861B7B20A5FCC200A4C4B4 /* Huur_KattenTests.swift */; };
 		90861B8720A5FCC200A4C4B4 /* Huur_KattenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90861B8620A5FCC200A4C4B4 /* Huur_KattenUITests.swift */; };
+		90861B9520A6038100A4C4B4 /* MainListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90861B9420A6038100A4C4B4 /* MainListTableViewController.swift */; };
+		9099FF8420BB3F84004E4B1D /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099FF8320BB3F84004E4B1D /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		90861B6120A5FCC100A4C4B4 /* Huur Katten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huur Katten.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90861B6420A5FCC100A4C4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90861B6620A5FCC100A4C4B4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		90861B6820A5FCC100A4C4B4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		90861B6B20A5FCC100A4C4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90861B6D20A5FCC200A4C4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		90861B8220A5FCC200A4C4B4 /* Huur KattenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Huur KattenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90861B8620A5FCC200A4C4B4 /* Huur_KattenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huur_KattenUITests.swift; sourceTree = "<group>"; };
 		90861B8820A5FCC200A4C4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90861B9420A6038100A4C4B4 /* MainListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListTableViewController.swift; sourceTree = "<group>"; };
+		9099FF8320BB3F84004E4B1D /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				90861B6420A5FCC100A4C4B4 /* AppDelegate.swift */,
-				90861B6620A5FCC100A4C4B4 /* FirstViewController.swift */,
+				90861B9420A6038100A4C4B4 /* MainListTableViewController.swift */,
 				90861B6820A5FCC100A4C4B4 /* SecondViewController.swift */,
 				90861B6A20A5FCC100A4C4B4 /* Main.storyboard */,
 				90861B6D20A5FCC200A4C4B4 /* Assets.xcassets */,
+				9099FF8320BB3F84004E4B1D /* Cat.swift */,
 				90861B6F20A5FCC200A4C4B4 /* LaunchScreen.storyboard */,
 				90861B7220A5FCC200A4C4B4 /* Info.plist */,
 			);
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9099FF8420BB3F84004E4B1D /* Cat.swift in Sources */,
+				90861B9520A6038100A4C4B4 /* MainListTableViewController.swift in Sources */,
 				90861B6920A5FCC100A4C4B4 /* SecondViewController.swift in Sources */,
 				90861B6520A5FCC100A4C4B4 /* AppDelegate.swift in Sources */,
-				90861B6720A5FCC100A4C4B4 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
