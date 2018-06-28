@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		904082BE20E551A4008FF542 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904082BD20E551A4008FF542 /* Default-568h@2x.png */; };
 		904082C020E55485008FF542 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 904082BF20E55485008FF542 /* img */; };
+		904082C220E55C6C008FF542 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 904082C120E55C6C008FF542 /* README.md */; };
 		90861B6520A5FCC100A4C4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90861B6420A5FCC100A4C4B4 /* AppDelegate.swift */; };
 		90861B6920A5FCC100A4C4B4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90861B6820A5FCC100A4C4B4 /* SecondViewController.swift */; };
 		90861B6C20A5FCC100A4C4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90861B6A20A5FCC100A4C4B4 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		904082BD20E551A4008FF542 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		904082BF20E55485008FF542 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		904082C120E55C6C008FF542 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		90861B6120A5FCC100A4C4B4 /* Avatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90861B6420A5FCC100A4C4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90861B6820A5FCC100A4C4B4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				9099FF8320BB3F84004E4B1D /* Avatar.swift */,
 				90AF0AC320E542BA000FB948 /* data.json */,
 				90861B6F20A5FCC200A4C4B4 /* LaunchScreen.storyboard */,
+				904082C120E55C6C008FF542 /* README.md */,
 				90861B7220A5FCC200A4C4B4 /* Info.plist */,
 			);
 			path = Avatar;
@@ -221,6 +224,7 @@
 				904082C020E55485008FF542 /* img in Resources */,
 				90861B7120A5FCC200A4C4B4 /* LaunchScreen.storyboard in Resources */,
 				90861B6E20A5FCC200A4C4B4 /* Assets.xcassets in Resources */,
+				904082C220E55C6C008FF542 /* README.md in Resources */,
 				90861B6C20A5FCC100A4C4B4 /* Main.storyboard in Resources */,
 				904082BE20E551A4008FF542 /* Default-568h@2x.png in Resources */,
 				90AF0AC420E542BA000FB948 /* data.json in Resources */,
